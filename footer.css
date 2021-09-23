@@ -1,0 +1,28 @@
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: crimson;
+    border-top: 1px solid gray;
+}
+
+footer div {
+    width: 300px;
+    font-size: 13px;
+    text-align: center;
+}
+
+footer div h1 {
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    padding-right: none;
+}
+
+#liste {
+    list-style: none;
+    list-style-position: outside;
+    text-align: initial;
+}

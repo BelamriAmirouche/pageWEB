@@ -1,0 +1,57 @@
+section,
+footer,
+#obj {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#dis {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#dis p {
+    color: black;
+    font-weight : bold;
+}
+
+.fancybox {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#menu div {
+    border-radius: 10px;
+    width: 230px;
+    height: 200px;
+    box-shadow: 0px 0px 4px gray;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#menu div h1 {
+    background: rgba(66, 66, 66, 0.1);
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#menu div h1:hover {
+    background: rgba(66, 66, 66, 0.2);
+}
+
+#menu div:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}

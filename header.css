@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: crimson;
+    background-image:url("https://d1ssu070pg2v9i.cloudfront.net/pex/sptechnologytest/2020/01/30133156/Industry-4.0-image-scaled.jpeg");
+	background-size: 200%;
+background-repeat: no-repeat;
+background-position: top left;
+
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px -5px 10px black;
+    color : crimson;
+}
+
+#tt {
+    flex: 1;
+    text-align: center;
+    padding-left: 11%;
+}
+
+#ph {
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 100px;
+    float: right;
+}
+
+#ph:hover {
+    transition: 1s;
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.img {
+    width: 60%;
+    height: 40%;
+    padding: 50px;
+}

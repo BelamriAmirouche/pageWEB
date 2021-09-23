@@ -1,0 +1,35 @@
+#obj h1 {
+    width: 100px;
+    font-size: 25px;
+    border-bottom: 2px solid;
+    text-decoration: none;
+    
+}
+
+#obj p {
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#obj p:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#objclick {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.pup {
+    width: 400px;
+    display: none;
+    font-size: 16px;
+}
+
+.pup h1 {
+    font-size: 18px;
+}
